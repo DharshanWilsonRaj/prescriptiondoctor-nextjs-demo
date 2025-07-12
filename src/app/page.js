@@ -1,7 +1,9 @@
+import StoreFrontHome from "./(storefront)/home";
+
 export default function Home() {
   return (
     <>
-    TEST
+      <StoreFrontHome />
     </>
   );
 }
