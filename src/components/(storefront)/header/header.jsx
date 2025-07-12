@@ -1,6 +1,5 @@
 'use client'
 
-import { useState } from "react"
 import { Input } from "@/components/ui/input"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Phone, HelpCircle, Info, Star, Search, Menu } from "lucide-react"
@@ -9,7 +8,7 @@ import Link from "next/link"
 
 const StoreFrontHeader = () => {
     return (
-        <header className="w-full px-4 md:px-8 py-3 border-b bg-white">
+        <header className="w-full py-3 border-b bg-white">
             <div className="container mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                 {/* Logo + Mobile Menu */}
                 <div className="flex w-full items-center justify-between md:w-auto">
@@ -62,7 +61,7 @@ const StoreFrontHeader = () => {
                     </div>
 
                     {/* Desktop Contact/Links */}
-                    <div className="hidden  md:grid grid-cols-2 gap-x-6 gap-y-5 text-primary text-md font-semibold">
+                    {/* <div className="hidden  md:grid grid-cols-2 gap-x-6 gap-y-5 text-primary text-md font-semibold">
                         <div className="flex flex-1 items-center gap-2">
                             <Phone className="w-5 h-5" />
                             <span>0208 1917477</span>
@@ -79,7 +78,7 @@ const StoreFrontHeader = () => {
                             <Star className="w-5 h-5" />
                             Reviews
                         </Link>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </header>
