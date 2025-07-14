@@ -1,4 +1,3 @@
-import WeightLossJourneyCard from "@/components/(storefront)/home/journey-card";
 import StoreFrontHome from "./(storefront)/home";
 export const metadata = {
   title: "Doctor | UK Online Healthcare & Treatments",
@@ -45,7 +44,6 @@ export default function Home() {
   return (
     <>
       <StoreFrontHome />
-      <WeightLossJourneyCard />
     </>
   );
 }

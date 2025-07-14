@@ -46,7 +46,7 @@ export default function WeightLossJourneyCard() {
 
     return (
         <section className="bg-white">
-            <div className="container pt-[60px] px-3 lg:px-0 py-5">
+            <div className="container pt-[60px] px-3 lg:px-0 py-8">
                 <h1 className="text-2xl font-medium text-center mb-8">
                     Start Your Weight Loss Journey
                 </h1>
@@ -55,7 +55,7 @@ export default function WeightLossJourneyCard() {
                     {cards.map((card, index) => (
                         <div
                             key={index}
-                            className={`bg-[#f8f8f8]  border-b-4 border-primary shadow-sm hover:shadow-md transition p-5 ${card.className}`}
+                            className={`bg-secondary border-b-4 border-primary shadow-sm hover:shadow-md transition p-5 ${card.className}`}
                         >
                             <p className="text-primary text-lg font-semibold mb-2">{card.title}</p>
                             <p className="text-sm text-gray-700 mb-4">{card.description}</p>
