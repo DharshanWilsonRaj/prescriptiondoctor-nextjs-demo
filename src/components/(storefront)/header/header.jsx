@@ -25,8 +25,8 @@ const StoreFrontHeader = () => {
                             <SheetTrigger  title={'menu'}>
                                 <Menu className=" text-primary" size={'30px'}/>
                             </SheetTrigger>
-                            <SheetContent side="right" className="w-72 p-3">
-                                <div className="flex flex-col gap-4 mt-6 text-primary font-semibold">
+                            <SheetContent side="left" className="w-72 p-3">
+                                {/* <div className="flex flex-col gap-4 mt-6 text-primary font-semibold">
                                     <Link href="/" className="flex items-center gap-2 hover:underline">
                                         <Phone className="w-5 h-5" />
                                         0208 1917477
@@ -43,7 +43,7 @@ const StoreFrontHeader = () => {
                                         <Star className="w-5 h-5" />
                                         Reviews
                                     </Link>
-                                </div>
+                                </div> */}
                             </SheetContent>
                         </Sheet>
                     </div>

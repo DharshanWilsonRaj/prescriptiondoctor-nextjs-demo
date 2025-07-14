@@ -2,8 +2,9 @@ import TreatmentListCard from "./list";
 
 const treatmentData = [
     {
-        image: "/images/treatments/airomir.webp", // or remote image URL
+        image: "/images/treatments/airomir.webp",
         title: "Airomir",
+        slug: 'airomir',
         features: [
             "Relieves bronchospasm",
             "Pump-actuated inhaler",
@@ -16,8 +17,9 @@ const treatmentData = [
         price: "£19.99",
     },
     {
-        image: "/images/treatments/atrovent.webp", // or remote image URL
+        image: "/images/treatments/atrovent.webp",
         title: "Atrovent",
+        slug: 'atrovent',
         features: [
             "Relieves bronchospasm",
             "Pump-actuated inhaler",

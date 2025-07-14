@@ -2,8 +2,9 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, CheckCircle } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
-export default function TreatmentListCard({ image, title, features, highlights, price }) {
+export default function TreatmentListCard({ image, title, features, highlights, price, slug }) {
     return (
         <div className="border rounded-lg shadow-sm p-6 bg-white flex flex-col md:flex-row gap-6">
             {/* Product Image */}
@@ -51,14 +52,18 @@ export default function TreatmentListCard({ image, title, features, highlights, 
                 <p className="text-primary font-semibold">Prices from {price}</p>
 
                 <div className="flex gap-3">
-                    <Button className="bg-primary text-white text-sm px-4 py-2 rounded flex items-center gap-1">
-                        Start Order
-                        <ArrowRight />
-                    </Button>
-                    <Button variant={'secondary'} className="border   text-sm px-4 py-2 rounded flex items-center gap-1">
-                        More info
-                        <ArrowRight />
-                    </Button>
+                    <Link href={`/asthma/${slug}`}>
+                        <Button className="bg-primary text-white text-sm px-4 py-2 rounded flex items-center gap-1">
+                            Start Order
+                            <ArrowRight />
+                        </Button>
+                    </Link>
+                    <Link href={`/asthma/${slug}`}>
+                        <Button variant={'secondary'} className="border   text-sm px-4 py-2 rounded flex items-center gap-1">
+                            More info
+                            <ArrowRight />
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </div>
