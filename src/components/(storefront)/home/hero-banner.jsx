@@ -51,8 +51,8 @@ export default function HeroBanner() {
         <div className="absolute inset-0 bg-black/20 z-10" />
 
         {/* Content */}
-        <div className="relative mb-[20px] container z-20">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4 drop-shadow-md">
+        <div className="relative mb-[10px] container z-20">
+          <h1 className="text-[24px]  md:text-5xl font-bold mb-4 drop-shadow-md">
             UK Online Weight loss Service Convenient Healthcare
           </h1>
           <p className="text-md md:text-xl max-w-xl mx-auto drop-shadow-sm">

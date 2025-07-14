@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import StoreFrontHeader from "@/components/(storefront)/header/header";
 import StorefrontNavbar from "@/components/(storefront)/header/menu-links";
+import StoreFrontFooter from "@/components/(storefront)/footer/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +28,8 @@ export default function RootLayout({ children }) {
         <StoreFrontHeader />
         <StorefrontNavbar />
         {children}
-      </body>
-    </html>
+        <StoreFrontFooter />
+      </body >
+    </html >
   );
 }

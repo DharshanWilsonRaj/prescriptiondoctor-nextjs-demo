@@ -7,8 +7,8 @@ import Link from "next/link"
 
 const StoreFrontHeader = () => {
     return (
-        <header className="w-full py-3 border-b bg-white">
-            <div className="container mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-4 px-2 lg:px-0">
+        <header className="w-full border-b bg-white">
+            <div className="container  mx-auto h-20 py-2 flex flex-col md:flex-row md:items-center md:justify-between gap-4 px-2 lg:px-0">
                 {/* Logo + Mobile Menu */}
                 <div className="flex w-full items-center justify-between md:w-auto">
                     <Image

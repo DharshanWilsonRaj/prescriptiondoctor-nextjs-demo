@@ -23,7 +23,7 @@ const widgets = [
 
 export default function SafetyImportance() {
     return (
-        <section className="py-10 bg-[#f1f5f9]">
+        <section className="py-10 bg-secondary">
             <div className="container px-2 md:px-0 max-w-screen-xl mx-auto">
                 {/* Heading */}
                 <p className="text-2xl text-primary font-medium text-center mb-4">

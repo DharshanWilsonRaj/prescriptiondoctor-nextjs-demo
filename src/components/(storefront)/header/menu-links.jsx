@@ -9,6 +9,7 @@ import {
     NavigationMenuList,
     NavigationMenuTrigger
 } from "@/components/ui/navigation-menu"
+import { UsersIcon } from "lucide-react"
 
 const menus = [
     {
@@ -436,7 +437,7 @@ const menus = [
 export default function NavigationMenuDemo() {
     return (
         <div className="bg-primary hidden lg:block text-white">
-            <div className="container py-0 h-[40px] mx-auto flex justify-between items-center">
+            <div className="container py-0 h-[42px] mx-auto flex justify-between items-center">
                 <NavigationMenu className={'w-full flex-1'}>
                     <NavigationMenuList className="flex gap-0 w-full justify-between">
                         {menus.map((menu, i) => (
@@ -479,9 +480,10 @@ export default function NavigationMenuDemo() {
                     </NavigationMenuList>
                 </NavigationMenu>
 
-                <Button className=" bg-secondary px-7  rounded-none" variant={'green'} asChild>
+                <Button className="text-white hover:bg-accent hover:text-accent-foreground   px-7  rounded-none" variant={'green'} asChild>
                     <a href="/mens-health">
-                        <span className="text-black text-lg font-semibold">Login</span>
+                        <span className="text-lg font-semibold">Login</span>
+                        <UsersIcon/>
                     </a>
                 </Button>
 
