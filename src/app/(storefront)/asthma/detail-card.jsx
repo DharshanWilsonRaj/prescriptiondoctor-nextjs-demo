@@ -27,7 +27,7 @@ export default function ProductDetailCard({
                         placeholder="blur"
                         blurDataURL="/images/placeholder.jpg"
                         className="object-contain"
-                        fetchPriority='low'
+                        fetchPriority='high'
                     />
                 </div>
 
