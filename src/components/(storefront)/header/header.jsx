@@ -9,7 +9,7 @@ import Link from "next/link"
 const StoreFrontHeader = () => {
     return (
         <header className="w-full py-3 border-b bg-white">
-            <div className="container mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div className="container mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-4 px-2 lg:px-0">
                 {/* Logo + Mobile Menu */}
                 <div className="flex w-full items-center justify-between md:w-auto">
                     <Image
@@ -23,8 +23,8 @@ const StoreFrontHeader = () => {
                     {/* Mobile Menu Button */}
                     <div className="md:hidden">
                         <Sheet>
-                            <SheetTrigger>
-                                <Menu className=" text-primary" size={'30px'} />
+                            <SheetTrigger  title={'menu'}>
+                                <Menu className=" text-primary" size={'30px'}/>
                             </SheetTrigger>
                             <SheetContent side="right" className="w-72 p-3">
                                 <div className="flex flex-col gap-4 mt-6 text-primary font-semibold">
