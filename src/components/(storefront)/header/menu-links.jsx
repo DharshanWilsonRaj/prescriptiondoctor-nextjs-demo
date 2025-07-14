@@ -451,7 +451,7 @@ export default function NavigationMenuDemo() {
                                 <NavigationMenuContent className="bg-white text-black shadow-lg rounded-md p-4 min-w-[1170px]">
                                     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6 mb-4 w-full">
                                         {menu.menu_links.map((link, idx) => (
-                                            <a key={idx} href={'/'} className="block group">
+                                            <a key={idx} href={'/asthma'} className="block group">
                                                 <h4 className="text-primary font-semibold group-hover:underline">
                                                     {link.title}
                                                 </h4>
